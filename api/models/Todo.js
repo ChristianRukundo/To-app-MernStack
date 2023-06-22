@@ -9,6 +9,8 @@ const itemSchema = new mongoose.Schema(
     desc: {
       type: String,
       max: 500,
+
+      
     },
     isFinished : {
       type: Boolean,
